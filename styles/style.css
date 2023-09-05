@@ -1,4 +1,57 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Work Sans;
+}
+
+/* nav bar  */
+.display_flex {
+  display: flex;
+  align-items: center;
+}
+
+.nav_container {
+  justify-content: space-evenly;
+}
+
+.nav_logo img {
+  margin-right: 20px;
+}
+
+.nav_title {
+  color: #0b0223;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.nav_title span {
+  color: #ff42a5;
+}
+
+.display_flex a,
+p {
+  text-decoration: none;
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.fa-brands {
+  margin-left: 10px;
+  color: #f61c0d;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.nav_icon_section {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 10px 20px;
+  margin-left: 10px;
 }
