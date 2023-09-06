@@ -265,6 +265,15 @@
   .funny_videos_card {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  /* play instant section */
+  .play_instant_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .play_instant_title, .play_instant_description {
+    text-align: center;
+  }
 }
 /* media query end  */
 
