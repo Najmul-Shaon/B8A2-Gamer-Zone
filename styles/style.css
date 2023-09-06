@@ -81,10 +81,11 @@
 /* hader section start  */
 
 .header_container {
-  margin-top: 5%;
+  margin-top: 10%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  justify-content: center;
 }
 
 .header_sub_title {
@@ -153,9 +154,6 @@
   .nav_container {
     flex-direction: column;
   }
-  /* .nav_logo{
-    justify-content: center;
-  } */
 
   .nav_btn {
     flex-direction: column;
@@ -165,6 +163,11 @@
     display: block;
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+  /* header section  */
+  .header_container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
   }
 }
 /* media query end  */
