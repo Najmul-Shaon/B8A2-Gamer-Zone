@@ -198,9 +198,13 @@
 
 .funny_videos_card_img_title {
   color: #534c64;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
+}
+
+.funny_videos_single_card:hover .funny_videos_card_img {
+  filter: brightness(50%);
 }
 
 /* play instant section  */
