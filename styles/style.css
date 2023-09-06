@@ -14,6 +14,16 @@
   color: #3b5998;
 }
 
+.fa-twitter {
+  color: #00acee;
+}
+.fa-instagram {
+  background: linear-gradient(45deg, #bc2a8d, #e95950);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 .margin_left_right {
   margin-left: 10%;
   margin-right: 10%;
@@ -319,6 +329,83 @@
   margin-left: 5%;
 }
 /* main section end  */
+/* footer start  */
+.footer_container {
+  width: 100%;
+  /* height: 30%; */
+  background: #0b0223;
+  margin-top: 10%;
+  padding: 3rem 0;
+}
+
+.footer_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_title {
+  color: #fff;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 2%;
+}
+
+.footer_title span {
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#nav_anchor {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+#nav_anchor a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 2rem;
+}
+
+.footer_icon {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.footer_icon .fa-brands {
+  font-size: 1.5rem;
+}
+
+.terms_policy {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 3rem;
+}
+
+.terms_policy a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  margin-right: 2rem;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 2rem;
+}
 
 /* media query start  */
 /* for mobile  */
@@ -347,6 +434,7 @@
 
   .header_image {
     order: 1;
+    margin-bottom: 20%;
   }
 
   .header_description {
@@ -382,6 +470,21 @@
   .random_btn_container {
     grid-template-columns: repeat(3, 1fr);
     margin-top: 30%;
+  }
+  /* footer  */
+  #nav_anchor {
+    padding: 0 0.2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .terms_policy {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
   }
 }
 /* media query end  */
