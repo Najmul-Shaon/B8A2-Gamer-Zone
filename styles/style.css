@@ -192,6 +192,50 @@
   font-style: normal;
   font-weight: 500;
 }
+
+/* play instant section  */
+.play_instant_container {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+#play_instant_title {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.play_instant_title {
+  text-align: right;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  /* margin-bottom: 2%; */
+}
+
+.play_instant_description {
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 10%;
+}
+
+.play_instant_image {
+  position: relative;
+}
+
+#play_instant_image_2 {
+  position: absolute;
+  top: 60%;
+  left: -5%;
+}
+
 /* main section end  */
 
 /* media query start  */
