@@ -258,6 +258,7 @@
 }
 
 #play_games_image_2 {
+  width: 50%;
   position: absolute;
   top: 50%;
   right: -5%;
@@ -282,6 +283,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
+  margin-top: 10%;
 }
 
 /* main section end  */
@@ -312,15 +314,27 @@
   /* funny videos card  */
   .funny_videos_card {
     grid-template-columns: repeat(1, 1fr);
+    margin-top: 30%;
   }
 
   /* play instant section */
   .play_instant_container {
     grid-template-columns: repeat(1, 1fr);
+    margin-top: 30%;
   }
 
   .play_instant_title,
   .play_instant_description {
+    text-align: center;
+  }
+  /* play games section */
+  .play_games_container {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 30%;
+  }
+
+  .play_games_title,
+  .play_games_description {
     text-align: center;
   }
 }
