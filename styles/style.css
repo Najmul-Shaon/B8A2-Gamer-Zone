@@ -217,6 +217,10 @@
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
   }
+  /* funny videos card  */
+  .funny_videos_card {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 /* media query end  */
 
