@@ -4,42 +4,6 @@
   font-family: Work Sans;
 }
 
-/* nav bar  */
-.display_flex {
-  display: flex;
-  align-items: center;
-}
-
-.nav_container {
-  justify-content: space-evenly;
-}
-
-.nav_logo img {
-  margin-right: 20px;
-}
-
-.nav_title {
-  color: #0b0223;
-  font-size: 45px;
-  font-style: normal;
-  font-weight: 700;
-}
-
-.nav_title span {
-  color: #ff42a5;
-}
-
-.display_flex a,
-p {
-  text-decoration: none;
-  color: #3c354f;
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  margin-left: 10px;
-}
-
 .fa-brands {
   margin-left: 10px;
   color: #f61c0d;
@@ -49,9 +13,73 @@ p {
   color: #3b5998;
 }
 
+.margin_left_right {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.nav_logo {
+  display: flex;
+}
+
+.nav_title {
+  margin-left: 10px;
+  color: #0b0223;
+  font-size: 2.813rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.nav_title span {
+  color: #ff42a5;
+}
+
+.nav_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_btn a {
+  text-decoration: none;
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: 2rem;
+}
+
 .nav_icon_section {
+  display: flex;
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
-  padding: 10px 20px;
-  margin-left: 10px;
+  padding: 1.063rem 1.5rem;
 }
+
+.nav_text {
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* nav bar end  */
+
+/* media query start  */
+/* for mobile  */
+/* nav bar  */
+@media screen and (max-width: 576px) {
+  .display_flex {
+    flex-direction: column;
+  }
+}
+/* media query end  */
