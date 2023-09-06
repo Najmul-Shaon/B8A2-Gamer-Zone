@@ -27,6 +27,7 @@
 
 .nav_logo {
   display: flex;
+  align-items: center;
 }
 
 .nav_title {
@@ -78,8 +79,26 @@
 /* for mobile  */
 /* nav bar  */
 @media screen and (max-width: 576px) {
-  .display_flex {
+  .nav_container{
     flex-direction: column;
   }
+  /* .nav_logo{
+    justify-content: center;
+  } */
+
+  .nav_btn{
+    flex-direction: column;
+  }
+
+  .nav_anchor a{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
 }
 /* media query end  */
+
+.display{
+  display: none;
+}
