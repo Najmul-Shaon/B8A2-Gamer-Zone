@@ -144,7 +144,55 @@
   width: 100%;
 }
 
-/* hader section end   */
+/* header section end   */
+/* main section start  */
+/* funny videos  */
+.funny_videos_container {
+  margin-top: 10%;
+}
+
+.funny_videos_title {
+  color: #0b0223;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.funny_videos_title span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.funny_videos_description {
+  color: #534c64;
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 4%;
+}
+
+.funny_videos_card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.funny_videos_card_img {
+  width: 100%;
+}
+
+.funny_videos_card_img_title {
+  color: #534c64;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+/* main section end  */
 
 /* media query start  */
 /* for mobile  */
