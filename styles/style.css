@@ -230,7 +230,11 @@
   position: relative;
 }
 
+#play_instant_image_1 {
+  width: 100%;
+}
 #play_instant_image_2 {
+  width: 50%;
   position: absolute;
   top: 60%;
   left: -5%;
@@ -271,7 +275,8 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .play_instant_title, .play_instant_description {
+  .play_instant_title,
+  .play_instant_description {
     text-align: center;
   }
 }
