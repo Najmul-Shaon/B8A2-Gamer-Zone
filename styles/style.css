@@ -4,6 +4,7 @@
   font-family: Work Sans;
 }
 
+/* nav bar start  */
 .fa-brands {
   margin-left: 10px;
   color: #f61c0d;
@@ -39,7 +40,10 @@
 }
 
 .nav_title span {
-  color: #ff42a5;
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav_btn {
@@ -74,31 +78,86 @@
 }
 
 /* nav bar end  */
+/* hader section start  */
+.header_sub_title {
+  color: #0b0223;
+  /* text-align: center; */
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.header_title {
+  /* text-align: center; */
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header_icon_text {
+  margin-bottom: 1.5rem;
+  color: #534c64;
+  /* text-align: center; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.primary_btn {
+  color: #fff;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 1.875rem;
+  border: none;
+  padding: 1.313rem 2.5rem;
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+  text-decoration: none;
+}
+
+.secondary_btn {
+  margin-left: 1.5rem;
+  color: #fff;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 1.875rem;
+  border: none;
+  padding: 1.313rem 2.5rem;
+  border-radius: 48px;
+  background: #4ec5f7;
+  text-decoration: none;
+}
+
+/* hader section end   */
 
 /* media query start  */
 /* for mobile  */
 /* nav bar  */
 @media screen and (max-width: 576px) {
-  .nav_container{
+  .nav_container {
     flex-direction: column;
   }
   /* .nav_logo{
     justify-content: center;
   } */
 
-  .nav_btn{
+  .nav_btn {
     flex-direction: column;
   }
 
-  .nav_anchor a{
+  .nav_anchor a {
     display: block;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-
 }
 /* media query end  */
 
-.display{
+.display {
   display: none;
 }
