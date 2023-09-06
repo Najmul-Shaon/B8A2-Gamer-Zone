@@ -240,6 +240,50 @@
   left: -5%;
 }
 
+/* play games section  */
+.play_games_container {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.play_games_image {
+  position: relative;
+}
+
+#play_games_image_1 {
+  width: 100%;
+}
+
+#play_games_image_2 {
+  position: absolute;
+  top: 50%;
+  right: -5%;
+}
+
+.play_games_title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+#play_games_title,
+.play_games_title span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.play_games_description {
+  color: #534c64;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
 /* main section end  */
 
 /* media query start  */
