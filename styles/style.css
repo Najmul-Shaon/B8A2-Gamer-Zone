@@ -297,6 +297,13 @@
 .random_btn_card {
   display: flex;
   align-items: center;
+  padding: 2%;
+}
+
+.random_btn_card:hover {
+  border-radius: 50px;
+  border: 1.5px solid #ff42a5;
+  background: #fff;
 }
 
 .random_btn_card img {
@@ -336,6 +343,14 @@
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
     margin-top: 30%;
+  }
+
+  .header_image {
+    order: 1;
+  }
+
+  .header_description {
+    order: 2;
   }
   /* funny videos card  */
   .funny_videos_card {
