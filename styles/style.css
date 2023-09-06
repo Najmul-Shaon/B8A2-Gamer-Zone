@@ -265,7 +265,7 @@
 }
 
 .play_games_title {
-  font-size: 48px;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 700;
 }
@@ -280,12 +280,37 @@
 
 .play_games_description {
   color: #534c64;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
   margin-top: 10%;
 }
 
+/* random btn  */
+.random_btn_container {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.random_btn_card {
+  display: flex;
+  align-items: center;
+}
+
+.random_btn_card img {
+  width: 25%;
+}
+
+.random_btn_card a {
+  text-decoration: none;
+  color: #0b0223;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 5%;
+}
 /* main section end  */
 
 /* media query start  */
@@ -310,6 +335,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
+    margin-top: 30%;
   }
   /* funny videos card  */
   .funny_videos_card {
@@ -336,6 +362,11 @@
   .play_games_title,
   .play_games_description {
     text-align: center;
+  }
+
+  .random_btn_container {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30%;
   }
 }
 /* media query end  */
